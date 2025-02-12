@@ -35,7 +35,7 @@ const FeaturedFoods = () => {
   if (isError) return <p>Error fetching featured foods.</p>;
 
   return (
-    <section className="max-w-7xl mx-auto py-12">
+    <section className="max-w-7xl mx-auto py-20">
       <h2 className="text-3xl lg:text-5xl text-center font-extrabold text-gray-100 mb-12 tracking-wide">
         Featured Foods
       </h2>

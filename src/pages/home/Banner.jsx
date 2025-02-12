@@ -52,7 +52,7 @@ const Banner = () => {
           </a>
           <a
             href="/add-food"
-            className="px-6 py-3 rounded-full bg-gradient-to-r from-pink-500 to-purple-600 text-white font-semibold shadow-lg hover:from-pink-600 hover:to-purple-700 transition duration-300"
+            className="px-6 py-3 rounded-full bg-gradient-to-r from-purple-500 to-indigo-600 text-white font-semibold shadow-lg hover:from-pink-600 hover:to-purple-700 transition duration-300"
           >
             Share Food
           </a>

@@ -62,7 +62,7 @@ const AddFood = () => {
   };
 
   return (
-    <div className="flex items-center justify-center rounded-lg min-h-screen bg-gradient-to-br from-gray-900 via-purple-900 to-indigo-900 px-4 py-12">
+    <div className="flex items-center justify-center rounded-lg min-h-screen bg-base-100 px-4 py-12">
       <div className="backdrop-blur-md bg-white/10 border border-white/20 shadow-lg rounded-xl p-8 max-w-lg w-full">
         <h2 className="text-3xl font-extrabold text-center text-white mb-8">
           Add Food

@@ -43,7 +43,7 @@ const MyFoodRequests = () => {
   
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-purple-900 to-indigo-900 px-6 py-12 flex flex-col items-center">
+    <div className="min-h-screen bg-base-100 px-6 py-12 flex flex-col items-center">
       <div className="backdrop-blur-lg bg-white/10 border border-white/20 shadow-xl rounded-2xl p-8 w-full max-w-6xl">
         <h1 className="text-4xl font-extrabold text-center text-white mb-8">
           My Food Requests

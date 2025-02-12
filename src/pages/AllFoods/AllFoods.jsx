@@ -46,7 +46,7 @@ const AllFoods = () => {
   };
 
   return (
-    <div className="min-h-screen rounded-lg bg-gradient-to-br from-gray-900 via-purple-900 to-indigo-900 px-6 py-12">
+    <div className="min-h-screen rounded-lg bg-base-100 px-6 py-12">
       {/* Title */}
       <h1 className="text-5xl font-extrabold text-center text-white mb-12">
         Explore Available Foods
@@ -69,7 +69,7 @@ const AllFoods = () => {
         </button>
         <button
           onClick={sortFoodsByExpireDate}
-          className="px-6 py-2 bg-gradient-to-r from-green-500 to-teal-600 text-white rounded-full shadow-lg hover:from-green-600 hover:to-teal-700 transition-transform transform hover:scale-105"
+          className="px-6 py-2 bg-gradient-to-r from-purple-500 to-indigo-600 text-white rounded-full shadow-lg hover:from-purple-600 hover:to-indigo-700 transition-transform transform hover:scale-105"
         >
           Sort by Expiry Date
         </button>
@@ -108,7 +108,7 @@ const AllFoods = () => {
               </p>
               <button
                 onClick={() => navigate(`/foods/${food._id}`)}
-                className="w-full py-2 bg-gradient-to-r from-teal-500 to-green-600 text-white rounded-md shadow-lg hover:from-teal-600 hover:to-green-700 transition"
+                className="w-full py-2 bg-gradient-to-r from-purple-500 to-indigo-600 text-white rounded-md shadow-lg hover:from-purple-600 hover:to-indigo-700 transition"
               >
                 View Details
               </button>

@@ -156,7 +156,7 @@ const SignIn = () => {
           {/* Google Login Button */}
           <button
             onClick={handleGoogleLogin}
-            className={`w-full mt-4 flex items-center justify-center gap-2 bg-red-500 text-white font-semibold py-3 rounded-lg shadow-lg hover:bg-red-600 transition duration-300 ${
+            className={`w-full mt-4 flex items-center justify-center gap-2 text-black font-semibold py-3 rounded-lg shadow-lg hover:bg-red-600 transition duration-300 ${
               loading && "opacity-50 cursor-not-allowed"
             }`}
             disabled={loading}

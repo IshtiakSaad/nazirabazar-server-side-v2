@@ -65,7 +65,7 @@ const FoodDetails = () => {
   if (!food) return <p>Loading...</p>;
 
   return (
-    <div className="p-6 bg-gradient-to-b from-gray-900 to-gray-800 min-h-screen">
+    <div className="p-6 bg-base-100 min-h-screen">
       <h1 className="text-4xl font-extrabold text-center text-white mb-8">
         Food Details
       </h1>
@@ -95,7 +95,7 @@ const FoodDetails = () => {
         <p className="text-gray-300 italic mb-4">{food.additionalNotes}</p>
         <button
           onClick={() => document.getElementById("my_modal_1").showModal()}
-          className="w-full py-2 bg-gradient-to-r from-teal-500 to-green-600 text-white rounded-md shadow-lg hover:from-teal-600 hover:to-green-700 transition"
+          className="w-full py-2 bg-gradient-to-r from-purple-500 to-indigo-600 text-white rounded-md shadow-lg hover:from-purple-700 hover:to-indigo-800transition"
         >
           Request Food
         </button>

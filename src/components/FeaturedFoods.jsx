@@ -3,7 +3,9 @@ import axios from "axios";
 import { Link } from "react-router-dom";
 
 const fetchFeaturedFoods = async () => {
-  const { data } = await axios.get("https://nazirabazar-server.vercel.app/foods");
+  const { data } = await axios.get(
+    "https://nazirabazar-server.vercel.app/foods"
+  );
   return data.sort((a, b) => b.foodQuantity - a.foodQuantity).slice(0, 6);
 };
 
@@ -24,7 +26,9 @@ const FeaturedFoods = () => {
           {/* Spinner */}
           <div className="w-16 h-16 border-4 border-indigo-500 border-t-transparent border-solid rounded-full animate-spin"></div>
           {/* Loading Text */}
-          <p className="text-lg text-gray-600 mt-4">Loading Featured Foods...</p>
+          <p className="text-lg text-gray-600 mt-4">
+            Loading Featured Foods...
+          </p>
         </div>
       </div>
     );
@@ -52,6 +56,9 @@ const FeaturedFoods = () => {
                 {food.foodName}
               </h3>
               <p className="text-gray-300 mb-2">
+                <strong>Description:</strong> {food.additionalNotes}
+              </p>
+              <p className="text-gray-300 mb-2">
                 <strong>Quantity:</strong> {food.foodQuantity}
               </p>
               <p className="text-gray-300 mb-2">
@@ -65,7 +72,7 @@ const FeaturedFoods = () => {
                 to={`/foods/${food._id}`}
                 className="inline-block px-6 py-2 bg-gradient-to-r from-indigo-500 to-purple-600 text-white rounded-full shadow-md hover:from-indigo-600 hover:to-purple-700 transition-all"
               >
-                View Details
+                See More
               </Link>
             </div>
           </div>

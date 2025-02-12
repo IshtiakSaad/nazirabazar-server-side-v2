@@ -1,6 +1,6 @@
 const Newsletter = () => {
     return (
-      <div className="w-11/12 max-w-7xl mt-20 mx-auto rounded-lg mb-20 bg-gradient-to-br from-gray-900 via-purple-900 to-indigo-900 px-6 py-12 text-white text-center">
+      <div className="w-11/12 max-w-7xl mt-20 mx-auto rounded-lg mb-20 bg-gradient-to-br from-gray-900 via-purple-900 to-indigo-900 lg:px-6 py-12 text-white text-center">
         <h2 className="text-4xl lg:text-5xl font-extrabold mb-6">Stay Updated</h2>
         <p className="text-lg text-gray-300 mb-6">
           Subscribe to our newsletter for the latest updates and exclusive foods.

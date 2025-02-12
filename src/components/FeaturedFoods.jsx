@@ -36,11 +36,11 @@ const FeaturedFoods = () => {
 
   return (
     <section className="max-w-7xl mx-auto py-12">
-      <h2 className="text-5xl text-center font-extrabold text-gray-100 mb-12 tracking-wide">
+      <h2 className="text-3xl lg:text-5xl text-center font-extrabold text-gray-100 mb-12 tracking-wide">
         Featured Foods
       </h2>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 px-4 lg:px-0 gap-8">
         {featuredFoods.map((food) => (
           <div
             key={food._id}

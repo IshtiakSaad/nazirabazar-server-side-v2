@@ -1,6 +1,6 @@
 # Nazirabazar Client Side 
 
-The Nazirabazar Client Side is the front-end portion of the Nazirabazar project, designed to provide users with a seamless experience in accessing job opportunities, managing accounts, and authenticating securely via email/password and Google. The application is built using React, styled with modern techniques, and integrates Firebase for authentication and data handling.
+Nazirabazar Client Side is the front-end portion of the Nazirabazar project, designed to provide users with a seamless experience in accessing job opportunities, managing accounts, and authenticating securely via email/password and Google. The application is built using React, styled with modern techniques, and integrates Firebase for authentication and data handling.
 
 ### 🌐 **Live Site URL**
 [Visit Nazirabazar Here](https://job-portal-for-goribs.web.app/)
